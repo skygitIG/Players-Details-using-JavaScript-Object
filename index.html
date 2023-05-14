@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>SKY.GIT - Players Details
+        using JavaScript Object</title>
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="wide wide1">
+                <form action="details.php">
+                    <h3>Select Player</h3><br>
+
+                    <input type="radio" id="shubhman" name="students" value="shubhman">
+                    <label for="shubhman" class="pl" onclick="shubhman1()">Shubman</label><br>
+
+                    <input type="radio" id="smriti" name="students" value="smriti">
+                    <label for="smriti" class="pl" onclick="smriti1()">Smriti</label><br>
+
+                    <input type="radio" id="sunil" name="students" value="sunil">
+                    <label for="sunil" class="pl" onclick="sunil1()">Sunil</label><br>
+
+                    <input type="radio" id="virat" name="students" value="virat">
+                    <label for="virat" class="pl" onclick="virat1()">Virat</label><br>
+
+                    <input type="radio" id="axar" name="students" value="axar">
+                    <label for="axar" class="pl" onclick="axar1()">Axar</label>
+                </form>
+            </div>
+
+            <div class=" details wide wide2">
+                <h3>Details :</h3><br>
+                <div id="info"></div>
+            </div>
+
+
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
